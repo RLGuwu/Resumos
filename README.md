@@ -3,7 +3,7 @@
 
 Um projeto apenas para guardar os resumos de Git e Github
 
-[Digital Inovation One](dio.me)
+[DIO (Digital Inovation One)](dio.me)
 
 ## 📑 Documentação
 
