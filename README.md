@@ -49,6 +49,7 @@ Alguns comandos:
 |$git checkout master|voltar para a branch inicial|
 |$git branch -d nomeDoBranchLocal|deletar toda uma brench local|
 |$git push origin --delete nomeDoBranchRemoto|deletar toda uma brench remota|
+|$git echo [arquivo ou pasta a ignorar] > .gitignore|manda o arquivo para uma área para ser ignorado|
 
 ## 🔍 Referências
 
