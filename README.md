@@ -36,22 +36,33 @@ git push -u origin main
 Alguns comandos: 
 |Comandos|Explicação|
 |--------|----------|
-|$git add [nome e extensão do arquivo]|adiciona o novo arquivo ao commit|
-|$git add .|adiciona todos os arquivos da pasta para o commit|
-|$git status|verificar a integridade dos arquivos, se estão prontos para envio ou não|
+|$git add [nome e extensão do arquivo]|Adiciona o novo arquivo ao commit|
+|$git add .|Adiciona todos os arquivos da pasta para o commit|
+|$git status|Verificar a integridade dos arquivos, se estão prontos para envio ou não|
 |$git version|Checar a Versão|
-|$git push origin [branch]|branch principal: main, pode ser criada uma branch secundária|
-|$git pull| é usado para atualizar o repositório local com as alterações mais recentes do repositório remoto|
-|$git rm [arquivo] |remover arquivo do pc |
-|$git rm -r [diretorio]|remover diretório|
+|$git push origin [branch]|Branch principal: main, pode ser criada uma branch secundária|
+|$git pull| É usado para atualizar o repositório local com as alterações mais recentes do repositório remoto|
+|$git rm [arquivo] |Remover arquivo do pc |
+|$git rm -r [diretorio]|Remover diretório|
 |$git log |histórico|
-|$git branch [nome da branch]|criar nova branch|
-|$git checkout master|voltar para a branch inicial|
-|$git branch -d nomeDoBranchLocal|deletar toda uma brench local|
-|$git push origin --delete nomeDoBranchRemoto|deletar toda uma brench remota|
-|$git echo [arquivo ou pasta a ignorar] > .gitignore|manda o arquivo para uma área para ser ignorado|
+|$git branch [nome da branch]|Criar nova branch|
+|$git checkout master|Voltar para a branch inicial|
+|$git echo [caminho ou arquivo ou pasta] > .gitignore|Manda o arquivo para uma área para ser ignorado|
+|$git reset --soft [cache]|Manda todos os arquivos do commit indicado pelo cache para a área de preparação
+|$git reset --mixed [cache]|Manda todos os arquivos do commit indicado pelo cache para a área anterior a da preparação, sendo assim, não reconhece os arquivos|
+|$git reset --hard [cache]|Destroi todos os arquivos do commit indicado pelo cache |
+|$git reset [caminho do arquivo ou pasta]|Manda o arquivo para a área de preparação|
 
-Entrar no modo Editor do GitHub apertar a tecla [ . ]
+Mexendo mais profundamente Branches 
+|Comandos|Explicação|
+|--------|----------|
+|$git checkout -b [Nome da branch]|Cria e Muda a branch|
+|$git checkout [Nome da branch existente]|Muda a branch|
+|$git branch -d [nome da Branch Local]|Deletar toda uma branch local|
+|$git push origin --delete nomeDoBranchRemoto|Deletar toda uma branch remota|
+|$git branch -v|Lista todas as alterações de todas as branchs|
+|$git merge [Nome da branch]|Mescla uma branch em outra principal|
+
 
 ## 🔍 Referências
 
