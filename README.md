@@ -51,6 +51,8 @@ Alguns comandos:
 |$git push origin --delete nomeDoBranchRemoto|deletar toda uma brench remota|
 |$git echo [arquivo ou pasta a ignorar] > .gitignore|manda o arquivo para uma área para ser ignorado|
 
+Entrar no modo Editor do GitHub apertar a tecla [ . ]
+
 ## 🔍 Referências
 
 - [Comandos Git (esses e muito mais)](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
