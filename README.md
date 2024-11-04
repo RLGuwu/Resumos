@@ -55,3 +55,4 @@ Alguns comandos:
 
 - [Comandos Git (esses e muito mais)](https://gist.github.com/leocomelli/2545add34e4fec21ec16)
 - [DIO](dio.me)
+- [Site utilizado para formar este arquivo](https://readme.so/pt/editor)
